@@ -1,0 +1,24 @@
+{
+    "name": "nFPM",
+    "id": "nfpm",
+    "version": "0.1.0",
+    "description": "nFPM is Not FPM - a simple deb, rpm, apk and arch linux packager written in Go",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v2.32.0",
+                "v2.31.0",
+                "v2.30.1",
+                "v2.29.0",
+                "v2.28.0"
+            ],
+            "default": "latest",
+            "description": "Select or enter a nFPM version to install"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
