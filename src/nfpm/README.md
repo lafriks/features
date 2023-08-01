@@ -1,5 +1,5 @@
 
-# nFPM
+# nFPM (nfpm)
 
 nFPM is Not FPM - a simple deb, rpm, apk and arch linux packager written in Go
 
@@ -15,7 +15,7 @@ nFPM is Not FPM - a simple deb, rpm, apk and arch linux packager written in Go
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter a nFPM version to install | string | hey |
+| version | Select or enter a nFPM version to install | string | latest |
 
 ## Supported platforms
 
@@ -24,6 +24,7 @@ nFPM is Not FPM - a simple deb, rpm, apk and arch linux packager written in Go
 ## References
 
 * nFPM: <https://nfpm.goreleaser.com/>
+
 
 ---
 
